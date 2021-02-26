@@ -32,6 +32,7 @@
     <main>
       @yield('content')
     </main>
+    <App>
   </div>
 </body>
 
