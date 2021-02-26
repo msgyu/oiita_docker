@@ -21,3 +21,7 @@ Route::post('/like_product', 'LikeController@like_product');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('vue/{any}', function () {
+  return view('layouts/app');
+})->where('any', '.*');
