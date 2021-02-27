@@ -6,6 +6,7 @@ require("./create-like.js");
 require("./flashmessage.js");
 require("./input-submit.js");
 import router from "./router";
+import store from "./store";
 
 window.Vue = require("vue");
 
