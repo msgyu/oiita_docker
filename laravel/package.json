@@ -25,6 +25,7 @@
     },
     "dependencies": {
         "marked": "^1.2.9",
-        "vue": "^2.6.12"
+        "vue": "^2.6.12",
+        "vue-router": "^3.5.1"
     }
 }
